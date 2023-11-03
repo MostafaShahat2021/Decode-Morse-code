@@ -6,3 +6,8 @@ MORSE_CODE = {
   "..-" => "U", "...-" => "V", ".--" => "W", "-..-" => "X", "-.--" => "Y",
   "--.." => "Z"
 }
+
+# method to decode a Morse code character
+def decode_char(morse_char)
+  MORSE_CODE[morse_char]
+end
